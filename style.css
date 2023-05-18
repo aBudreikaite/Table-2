@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+table {
+    margin: 20px auto;
+    border: 2px solid white;
+    font-family: quicksand;
+    border-collapse: collapse;
+    color: white;
+}
+
+td, th {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+#table2 thead {
+    background: #86006f;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #af5593;
+}
+
+tr:nth-last-of-type(2n)
+{
+    background-color: #f37ecf;
+}
